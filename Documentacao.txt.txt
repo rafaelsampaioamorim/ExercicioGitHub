@@ -1,6 +1,11 @@
+=======================
+Domínio do negócio
+=======================
+Designe de interiores/ Imoveis
+
 Problema / Oportunidade
 =======================
-O sistema de propriedades matemáticas Mathfavela do  não realiza calculos automáticos quando se trata de saber as propriedades de um determinado objeto
+Uma empresa que trabalha em modelagem de interiores, projetando moveis, decorações e utilidades domesticas baseadas no tamanho do imóvel e na disposição de seus cômodos. Tal empresa deseja automatizar os calculos de area e perimetro da circunferencia e de area do retangulo, afim de agilizar a devolutiva dos projetos e orçamentos para seus clientes.
 
 Analise de Requisitos
 =====================
