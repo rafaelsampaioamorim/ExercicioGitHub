@@ -1,1 +1,13 @@
-Problema / oportunidade
+Problema / Oportunidade
+=======================
+O sistema de propriedades matemáticas Mathfavela do  não realiza calculos automáticos quando se trata de saber as propriedades de um determinado objeto
+
+Analise de Requisitos
+=====================
+
+stakeholders
+=====================
+Alunos
+Professores
+Curiosos
+
