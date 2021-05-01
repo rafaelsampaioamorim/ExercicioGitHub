@@ -3,16 +3,40 @@ Domínio do negócio
 =======================
 Designe de interiores/ Imoveis
 
+=======================
 Problema / Oportunidade
 =======================
 Uma empresa que trabalha em modelagem de interiores, projetando moveis, decorações e utilidades domesticas baseadas no tamanho do imóvel e na disposição de seus cômodos. Tal empresa deseja automatizar os calculos de area e perimetro da circunferencia e de area do retangulo, afim de agilizar a devolutiva dos projetos e orçamentos para seus clientes.
 
+==========================
+Solução proposta
+==========================
+Implementar funções que calculem automaticamente o perímetro e área dos objetos solicitados. 
+======================
+
+======================
+stakeholders
+======================
+Vendedores
+Projetista
+Gestores
+
+======================
+Atividades de Negócio 
+======================
+- A001 - Calcular o perímetro de uma circunferência
+- A002 - Calcular a área de uma circunferência
+- A003 - Calcular a área de um retangulo
+
+==================================
+Processo de negócio
+==================================
+- A001 a A004
+O projetista tira as medidas dos cômodos do imóvel e calcula sua área baseado na fórmula contida em RN001. O projetista também recebe as solicitações do cliente quanto a móveis e artigos decorativos. Baseado nas formas dos artefatos solicitados o projetista utiliza as formulas contidas em RN001, RN002 e RN003 para calcular área e perímetro dos obejetos e adequa-los ao projeto.  
+ 
+=====================
 Analise de Requisitos
 =====================
 
-stakeholders
-=====================
-Alunos
-Professores
-Curiosos
+
 
