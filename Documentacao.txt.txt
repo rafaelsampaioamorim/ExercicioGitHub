@@ -22,6 +22,14 @@ Projetista
 Gestores
 
 ======================
+Vocabulos do negócio
+======================
+b = base 
+h = altura
+PI = 3,14 
+r = raio
+
+======================
 Atividades de Negócio 
 ======================
 - A001 - Calcular o perímetro de uma circunferência
@@ -34,6 +42,15 @@ Processo de negócio
 - A001 a A004
 O projetista tira as medidas dos cômodos do imóvel e calcula sua área baseado na fórmula contida em RN001. O projetista também recebe as solicitações do cliente quanto a móveis e artigos decorativos. Baseado nas formas dos artefatos solicitados o projetista utiliza as formulas contidas em RN001, RN002 e RN003 para calcular área e perímetro dos obejetos e adequa-los ao projeto.  
  
+============================
+Regras de Negócio
+============================
+RN001 - Área do retangulo = b * h
+	
+RN002 - Área da circunferência = PI * r^2
+	
+RN003 - Perímetro da circunferência = 2* PI * r
+	
 =====================
 Analise de Requisitos
 =====================
