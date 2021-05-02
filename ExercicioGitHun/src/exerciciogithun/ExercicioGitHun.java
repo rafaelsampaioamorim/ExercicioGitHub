@@ -15,8 +15,12 @@ public class ExercicioGitHun {
             retornoMenu = teclado.nextInt();    
 
             switch (retornoMenu){
+<<<<<<< Updated upstream
                 case 1,2:
                     {
+=======
+                case 1-2:{
+>>>>>>> Stashed changes
                     Circuferencia bola1 = new Circuferencia();
                         do{
                             System.out.print("\n\nFavor informar o valor do Raio da Bola: ");
@@ -28,7 +32,18 @@ public class ExercicioGitHun {
                         else{System.out.println("O perimetro é do circulo é: " + bola1.retornarPrimetro());}
                     }
                     break;
-                case 3,4:
+                case 3-4:{
+                        Retangulo obj1 = new Retangulo();
+                        do{
+                            System.out.print("\n\nFavor informar os valores da base e altura do  Retangulo: ");
+                            obj1.setBase(teclado.nextFloat());
+                            obj1.setAltura(teclado.nextFloat());
+                            
+                        }while(obj1.base !=0);
+                        
+                        obj1.imprimir();
+                    }
+                       
                     break;
                 case 5:
                     break;// saída
