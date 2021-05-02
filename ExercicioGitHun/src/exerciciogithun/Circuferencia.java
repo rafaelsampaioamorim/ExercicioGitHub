@@ -1,4 +1,4 @@
-/*package exerciciogithun;
+package exerciciogithun;
 
 public class Circuferencia {
     float raio;
@@ -25,4 +25,3 @@ public class Circuferencia {
         return Math.PI*(Math.pow(raio, 2)); //PI.R^2
     }
 }
-*/
