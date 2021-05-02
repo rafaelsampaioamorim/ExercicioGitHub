@@ -15,7 +15,8 @@ public class ExercicioGitHun {
             retornoMenu = teclado.nextInt();    
 
             switch (retornoMenu){
-                case 1,2:{
+                case 1,2:
+                    {
                     Circuferencia bola1 = new Circuferencia();
                         do{
                             System.out.print("\n\nFavor informar o valor do Raio da Bola: ");
@@ -29,9 +30,11 @@ public class ExercicioGitHun {
                     break;
                 case 3,4:
                     break;
+                case 5:
+                    break;// saída
                 default:
                     throw new IllegalArgumentException("Opção inválida!!!");
             }
-        }while(retornoMenu<=0||retornoMenu>=5);
+        }while(retornoMenu!=5);
     } 
 }
