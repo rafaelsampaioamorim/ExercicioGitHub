@@ -10,7 +10,7 @@ public class ExercicioGitHun {
         int retornoMenu; 
         
         do{
-            System.out.print("Favor Informar abaixo o que deseja Fazer:\n[1]-Calcular area de uma circunferência\n[2]-Calcular Perímetro de uma circunferência\nOpção:");
+            System.out.print("Favor Informar abaixo o que deseja Fazer:\n[1]-Calcular area de uma circunferência\n[2]-Calcular Perímetro de uma circunferência\n[3]-Calcular Area do Retangulo\n[4]-Sair\nOpção:");
             
             retornoMenu = teclado.nextInt();    
 
@@ -29,24 +29,24 @@ public class ExercicioGitHun {
                         else{System.out.println("O perimetro é do circulo é: " + bola1.retornarPrimetro());}
                     }
                     break;
-                case 3,4:{
+                case 3:{
                         Retangulo obj1 = new Retangulo();
                         do{
                             System.out.print("\n\nFavor informar os valores da base e altura do  Retangulo: ");
                             obj1.setBase(teclado.nextFloat());
                             obj1.setAltura(teclado.nextFloat());
                             
-                        }while(obj1.base !=0);
+                        }while(obj1.base==0);
                         
                         obj1.imprimir();
                     }
                        
                     break;
-                case 5:
+                case 4:
                     break;// saída
                 default:
                     throw new IllegalArgumentException("Opção inválida!!!");
             }
-        }while(retornoMenu!=5);
+        }while(retornoMenu!=4);
     } 
 }
