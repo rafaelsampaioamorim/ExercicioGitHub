@@ -38,6 +38,8 @@ public class ExercicioGitHun {
                             
                         }while(obj1.base==0);
                         
+                        obj1.calculaAreaRetangulo();
+                        obj1.calculaPerimetroRetangulo();
                         obj1.imprimir();
                     }
                        
