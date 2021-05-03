@@ -32,28 +32,35 @@ r = raio
 ======================
 Atividades de Negócio 
 ======================
-- A001 - Calcular o perímetro de uma circunferência
-- A002 - Calcular a área de uma circunferência
-- A003 - Calcular a área de um retangulo
-
+- A001 - Calcular área e perímetro de uma circunferência 
+- A002 - Calcular área e perímetro de um retangulo
 ==================================
 Processo de negócio
 ==================================
-- A001 a A004
-O projetista tira as medidas dos cômodos do imóvel e calcula sua área baseado na fórmula contida em RN001. O projetista também recebe as solicitações do cliente quanto a móveis e artigos decorativos. Baseado nas formas dos artefatos solicitados o projetista utiliza as formulas contidas em RN001, RN002 e RN003 para calcular área e perímetro dos obejetos e adequa-los ao projeto.  
+- A001 e A002
+O projetista tira as medidas dos cômodos do imóvel e calcula sua área e perímetro baseado na fórmula contida em RN001 e RN002. O projetista também recebe as solicitações do cliente quanto a móveis e artigos decorativos. Baseado nas formas dos artefatos solicitados o projetista utiliza as formulas contidas em RN001, RN002, RN003 e RN004 para calcular área e perímetro dos objetos e adequa-los ao projeto.  
  
 ============================
 Regras de Negócio
 ============================
 RN001 - Área do retangulo = b * h
+
+RN002 - Perímetro do retangulo = 2*b + 2*h
 	
-RN002 - Área da circunferência = PI * r^2
+RN003 - Área da circunferência = PI * r^2
 	
-RN003 - Perímetro da circunferência = 2* PI * r
+RN004 - Perímetro da circunferência = 2* PI * r
 	
 =====================
-Analise de Requisitos
+Requisitos
 =====================
+RF0001 - O sistema deve receber do usuário a entrada de dados referente as medidas do objeto que deseja calcular
+
+RF002 - Os calculos requeridos devem ser exibidos na tela do usuário
+
+RF003 - Os calculos efetuados devem ser armazenados no sistema do projetista para futuro calculo de orçamento
+
+ 
 
 
 
